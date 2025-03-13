@@ -28,8 +28,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center items-center text-white text-xs">
-        <img src={setup} alt="scroll down" className=" cursor-pointer" />
+      <div className="absolute bottom-20 md:bottom-0 left-0 right-0 flex justify-center md:items-center">
+        <img src={setup} alt="setup" />
       </div>
     </section>
   );
