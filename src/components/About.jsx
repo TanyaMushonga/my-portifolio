@@ -59,6 +59,24 @@ const About = () => {
         Let&apos;s build something exceptional together!
       </motion.p>
 
+      <p class="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        As a passionate software developer, I run a tech newsletter and a{" "}
+        <a
+          href="https://www.thecypherhub.tech/"
+          class="text-blue-500 hover:text-blue-700"
+        >
+          blog
+        </a>{" "}
+        where I share insights, tips, and best practices on software
+        development, system design, and emerging technologies. Through my
+        writing, I stay up-to-date with the latest trends in the tech field and
+        continuously expand my knowledge. My newsletter and blog serve as
+        platforms for me to document my learning journey, share real-world
+        coding experiences, and engage with a community of developers. This
+        practice not only deepens my understanding but also allows me to
+        contribute to the broader tech ecosystem.
+      </p>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

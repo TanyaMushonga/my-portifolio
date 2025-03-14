@@ -25,12 +25,20 @@ import threejs from "./tech/threejs.svg";
 import ttllogo from "./ttl-logo.png";
 import mviyo from "./mviyo-logo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import zimticket from "./zimtickets.jpeg";
+import safi from "./safi.jpeg";
+import safizen from "./safizen.jpeg";
+import thecypherhub from "./thecypherhub.png";
+import ttl from "./ttl.png";
+import aws from './tech/aws.png';
 
 export {
+  aws,
+  safi,
+  thecypherhub,
+  ttl,
+  safizen,
+  zimticket,
   ttllogo,
   mviyo,
   logo,
@@ -54,8 +62,5 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   setup,
 };

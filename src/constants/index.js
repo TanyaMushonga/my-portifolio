@@ -15,12 +15,15 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   mviyo,
   ttllogo,
+  safi,
+  safizen,
+  zimticket,
+  ttl,
+  thecypherhub,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +55,10 @@ const services = [
     icon: backend,
   },
   {
+    title: "DevOps Engineer",
+    icon: docker,
+  },
+  {
     title: "Content Creator",
     icon: creator,
   },
@@ -62,6 +69,7 @@ const technologies = [
     name: "HTML 5",
     icon: html,
   },
+
   {
     name: "CSS 3",
     icon: css,
@@ -110,6 +118,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
 ];
 
 const experiences = [
@@ -126,6 +138,9 @@ const experiences = [
       "Integrating with RESTful APIs, third-party libraries, and services like stripe for payment processing.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated on Safi a mobile application that is used by people to book cleaning services.",
+      "Collaborated on Safizen a mobile application that is used by people who offer cleaning services to find clients who uses Safi.",
+      "Collaborated on ZimTicket a mobile app that is used for accessing a range of events in Zimbabwe from different event orginizers. The app facilitates the buying of tickets for events.",
     ],
   },
   {
@@ -155,83 +170,120 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Tanya is a great team player who I worked with him when developing Safi and Safizen mobile applications.",
+    name: "Methuseli Mfema",
+    designation: "Core worker",
+    company: "Mviyo Technologies",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I mentored Tanya and l was impressed by his ability to learn DevOps principles focusing on AWS and he quickly apply them to solve real-world problems.",
+    name: "Wyne Chitambara",
+    designation: "Core worker",
+    company: "Mviyo Technologies",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Safi mobile app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Collaborated on Safi a mobile application that is used by people to book cleaning services.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "django rest framework",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: safi,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.mviyo.safi",
   },
   {
-    name: "Job IT",
+    name: "Safizen mobile app",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Collaborated on Safizen a mobile application that is used by people who offer cleaning services to find clients who uses Safi.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django rest framework",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: safizen,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.mviyo.safi",
   },
   {
-    name: "Trip Guide",
+    name: "ZimTickets mobile app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Collaborated on ZimTicket a mobile app that is used for accessing a range of events in Zimbabwe from different event orginizers. The app facilitates the buying of tickets for events.",
     tags: [
       {
-        name: "nextjs",
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: zimticket,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.mviyotechnologies.zimtickets",
+  },
+  {
+    name: "TTL web appp",
+    description:
+      "Built a task management application that is used by The Transform Legacy to manage their projects and produces reports.",
+    tags: [
+      {
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "postgresql",
+        color: "pink-text-gradient",
       },
       {
-        name: "css",
+        name: "prisma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ttl,
+    source_code_link: "https://ttl-web-client.vercel.app/",
+  },
+  {
+    name: "The cypher hub",
+    description:
+      "I built my own bloggging platform that l use to share my thoughts and experiences in the tech industry. I publish weekly articles and email newsletters.",
+    tags: [
+      {
+        name: "next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: thecypherhub,
+    source_code_link: "https://www.thecypherhub.tech/",
   },
 ];
 

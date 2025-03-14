@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { FaDownload } from "react-icons/fa6";
 import { setup } from "../assets";
 
 const Hero = () => {
@@ -25,6 +25,19 @@ const Hero = () => {
             prioritising client satisfaction and{" "}
             <br className="sm:block hidden" />
             user experience.
+            <div className="mt-5">
+              <motion.a
+                href="https://drive.google.com/file/d/1CRaSZbugvV_QWG4taXwPh_nJs_gwnP4o/view?usp=sharing"
+                download
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#915EFF] hover:bg-[#7a4de0] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#915EFF] relative"
+              >
+                <FaDownload className="text-white mr-2" />
+                Download Resume
+                <span className="absolute inset-0 rounded-md bg-gradient-to-r from-purple-400 to-blue-500 opacity-50 blur-sm animate-pulse"></span>
+              </motion.a>
+            </div>
           </p>
         </div>
       </div>
