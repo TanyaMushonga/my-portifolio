@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import setup from "./setup-coding.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,7 +29,7 @@ import safi from "./safi.jpeg";
 import safizen from "./safizen.jpeg";
 import thecypherhub from "./thecypherhub.png";
 import ttl from "./ttl.png";
-import aws from './tech/aws.png';
+import aws from "./tech/aws.png";
 
 export {
   aws,
@@ -62,5 +61,4 @@ export {
   tailwind,
   typescript,
   threejs,
-  setup,
 };

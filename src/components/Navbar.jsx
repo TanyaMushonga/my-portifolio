@@ -49,6 +49,14 @@ const Navbar = () => {
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <a
+            href="https://www.thecypherhub.tech/"
+            className={`${
+              active === "blog" ? "text-white" : "text-secondary"
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+          >
+            Blog
+          </a>
           {navLinks.map((nav) => (
             <li
               key={nav.id}

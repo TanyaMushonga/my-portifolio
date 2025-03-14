@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { FaDownload } from "react-icons/fa6";
-import { setup } from "../assets";
+
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-[40vh] md:h-[70vh] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -27,13 +27,13 @@ const Hero = () => {
             user experience.
             <div className="mt-5">
               <motion.a
-                href="https://drive.google.com/file/d/1CRaSZbugvV_QWG4taXwPh_nJs_gwnP4o/view?usp=sharing"
+                href="/path/to/your/resume.pdf"
                 download
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#915EFF] hover:bg-[#7a4de0] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#915EFF] relative"
               >
-                <FaDownload className="text-white mr-2" />
+                <FaDownload className="text-white m" />
                 Download Resume
                 <span className="absolute inset-0 rounded-md bg-gradient-to-r from-purple-400 to-blue-500 opacity-50 blur-sm animate-pulse"></span>
               </motion.a>
@@ -41,9 +41,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-20 md:bottom-0 left-0 right-0 flex justify-center md:items-center">
-        <img src={setup} alt="setup" />
-      </div>
+     
     </section>
   );
 };
