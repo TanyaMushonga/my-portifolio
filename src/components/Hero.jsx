@@ -25,7 +25,7 @@ const Hero = () => {
             user experience.
             <div className="mt-5">
               <motion.a
-                href="/path/to/your/resume.pdf"
+                href="https://drive.google.com/file/d/1CRaSZbugvV_QWG4taXwPh_nJs_gwnP4o/view?usp=drive_link"
                 download
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
