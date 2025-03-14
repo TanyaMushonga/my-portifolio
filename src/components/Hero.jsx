@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { FaDownload } from "react-icons/fa6";
 
-
 const Hero = () => {
   return (
     <section className={`relative w-full h-[40vh] md:h-[70vh] mx-auto`}>
@@ -20,10 +19,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Tanya</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop both web and mobile applications{" "}
-            <br className="sm:block hidden" />
-            prioritising client satisfaction and{" "}
-            <br className="sm:block hidden" />
+            I am a software engineer, l build both web and mobile{" "}
+            <br className="sm:block hidden" /> applications prioritising client
+            satisfaction and <br className="sm:block hidden" />
             user experience.
             <div className="mt-5">
               <motion.a
@@ -41,7 +39,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-     
     </section>
   );
 };

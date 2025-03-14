@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&apos;m a software developer specializing in building scalable and
+        I&apos;m a software engineer specializing in building scalable and
         high-performance applications. For mobile development, I use React
         Native to create seamless and responsive cross-platform experiences. For
         web development, I leverage Next.js to build fast, dynamic, and
