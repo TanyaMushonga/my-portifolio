@@ -33,7 +33,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.9 }}
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#915EFF] hover:bg-[#7a4de0] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#915EFF] relative"
               >
-                <FaDownload className="text-white m" />
+                <FaDownload className="text-white mr-3" />
                 Download Resume
                 <span className="absolute inset-0 rounded-md bg-gradient-to-r from-purple-400 to-blue-500 opacity-50 blur-sm animate-pulse"></span>
               </motion.a>
