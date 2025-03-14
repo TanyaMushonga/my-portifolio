@@ -133,7 +133,6 @@ const experiences = [
     date: "June 2024 - June 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Mobile application development using React Native. Mobile apps that l have contributed to include ZimTickets, Safi, and Safizen",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Integrating with RESTful APIs, third-party libraries, and services like stripe for payment processing.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -170,7 +169,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Tanya is a great team player who I worked with him when developing Safi and Safizen mobile applications.",
+      "Tanya is a great team player whom I worked with him when developing Safi and Safizen mobile applications.",
     name: "Methuseli Mfema",
     designation: "Core worker",
     company: "Mviyo Technologies",
