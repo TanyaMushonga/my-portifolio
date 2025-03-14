@@ -24,17 +24,15 @@ const Hero = () => {
             satisfaction and <br className="sm:block hidden" />
             user experience.
             <div className="mt-5">
-              <motion.a
+              <a
                 href="https://drive.google.com/file/d/1CRaSZbugvV_QWG4taXwPh_nJs_gwnP4o/view?usp=drive_link"
-                download
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#915EFF] hover:bg-[#7a4de0] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#915EFF] relative"
               >
                 <FaDownload className="text-white mr-3" />
                 Download Resume
-                <span className="absolute inset-0 rounded-md bg-gradient-to-r from-purple-400 to-blue-500 opacity-50 blur-sm animate-pulse"></span>
-              </motion.a>
+              </a>
             </div>
           </p>
         </div>
